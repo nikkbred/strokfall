@@ -1,6 +1,6 @@
 matplotlib==3.6.2
 mplstereonet==0.6.2
-numpy==1.19.5
+numpy==1.19
 pandas==2.0.3
 Pillow==9.5.0
 streamlit==1.25.0
