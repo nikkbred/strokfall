@@ -124,7 +124,7 @@ def trigger():
 
         with kolll2:
             # S-pol
-            figs = plt.figure(figsize=(10, 4))
+            figs = plt.figure(figsize=(20, 9))
 
             axs = figs.add_subplot(projection='stereonet')
             axs.pole(strikes, dips, c='k', label='Polene')
