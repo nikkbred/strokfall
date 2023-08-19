@@ -124,7 +124,7 @@ def trigger():
 
         with kolll2:
             # S-pol
-            figs = plt.figure(figsize=(14, 6))
+            figs = plt.figure(figsize=(15, 7))
 
             axs = figs.add_subplot(projection='stereonet')
             axs.pole(strikes, dips, c='k', label='Polene')
@@ -199,7 +199,7 @@ def main():
                 * Sprekkerose
                 * Tetthetsplott av polene
                 * Beta diagram
-                * S-pol diagram
+                * S-pol diagram\n
                 Alle diagrammene kan lastes ned som .jpg-filer.\n
                 En tabell av dine data blir også laget, denne kan lastes ned som en Excel-fil. (.xlsx)\n
                 **OBS:** Pass på at du skriver inn rett antall målinger, tabellen må fylles inn på nytt om antall målinger endres.
