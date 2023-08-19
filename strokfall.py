@@ -134,10 +134,10 @@ def trigger():
             axs.set_title('S-pol diagram', y=1.10, fontsize=12)
             axs.grid()
 
-            #handles, labels = axs.get_legend_handles_labels()
-            #by_label = OrderedDict(zip(labels, handles))
+            handles, labels = axs.get_legend_handles_labels()
+            by_label = OrderedDict(zip(labels, handles))
 
-            #axs.legend(by_label.values(), by_label.keys(), loc='upper left')
+            axs.legend(by_label.values(), by_label.keys(), loc='upper left')
 
             figs.tight_layout()
 
