@@ -69,7 +69,7 @@ def trigger():
 
         with koll2:
             # Polene
-            figpol = plt.figure(figsize=(10, 10))
+            figpol = plt.figure(figsize=(4, 4))
 
             axpol = figpol.add_subplot(projection='stereonet')
 
@@ -98,7 +98,7 @@ def trigger():
 
         with kolll1:
             # Beta
-            figbet = plt.figure(figsize=(1, 1))
+            figbet = plt.figure(figsize=(6, 4))
 
             axbet = figbet.add_subplot(projection='stereonet')
             axbet.plane(strikes, dips, c='k', label='Plan')
@@ -124,7 +124,7 @@ def trigger():
 
         with kolll2:
             # S-pol
-            figs = plt.figure(figsize=(6, 6))
+            figs = plt.figure(figsize=(4, 6))
 
             axs = figs.add_subplot(projection='stereonet')
             axs.pole(strikes, dips, c='k', label='Polene')
